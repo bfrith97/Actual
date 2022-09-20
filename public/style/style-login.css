@@ -1,0 +1,79 @@
+body {
+    background-color: #3b8a8a;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 12.5%;
+    height: 250px;
+    width: 300px;
+
+    box-shadow: 0px 0px 91px -15px rgba(0,0,0,1);
+    
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%
+}
+
+.login-box {
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    font-size: 25px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+.login-username {
+    border-radius: 5px 5px 0 0;
+}
+
+.login-password {
+    border-radius: 0;
+}
+
+.login-enter {
+    width: 132px;
+    height: 30px;
+    margin-left: auto;
+
+    border: 0;
+    background-color: white;
+}
+
+.login-enter {
+    border-radius: 0 0 5px 0;
+}
+
+.login-register {
+    border-radius: 0 0 0 5px;
+    width: 132px;
+    height: 30px;
+    margin-left: auto;
+
+    border: 0;
+    background-color: white;
+}
+
+.login-enter:hover {
+    cursor: pointer;
+}
+
+.login-btns {
+    display: flex;
+}
+

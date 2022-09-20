@@ -1,0 +1,29 @@
+body {
+    background-color: #3b8a8a;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 5%;
+    height: 600px;
+    width: 800px;
+
+    box-shadow: 0px 0px 91px -15px rgba(0,0,0,1);
+}
+
+.container-inner {
+    background-color: rgba(255, 255, 255, 0.521);
+    height: 95%;
+    width: 95%;
+    margin: auto;
+}
